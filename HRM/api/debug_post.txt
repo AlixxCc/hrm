@@ -1,0 +1,42 @@
+Array
+(
+    [MIBDIRS] => C:/Users/mujal/OneDrive/Desktop/xampp/php/extras/mibs
+    [MYSQL_HOME] => \xampp\mysql\bin
+    [OPENSSL_CONF] => C:/Users/mujal/OneDrive/Desktop/xampp/apache/bin/openssl.cnf
+    [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+    [PHPRC] => \xampp\php
+    [TMP] => \xampp\tmp
+    [HTTP_USER_AGENT] => Dart/3.8 (dart:io)
+    [CONTENT_TYPE] => application/json; charset=utf-8
+    [HTTP_ACCEPT_ENCODING] => gzip
+    [CONTENT_LENGTH] => 93
+    [HTTP_HOST] => 172.20.10.3
+    [PATH] => C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;D:\xampp\php;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\mujal\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\nodejs\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\composer;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\mujal\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\mujal\AppData\Local\Programs\Python\Python310\;C:\Users\mujal\AppData\Local\Microsoft\WindowsApps;C:\Microsoft VS Code\bin;C:\Users\mujal\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\mujal\AppData\Roaming\npm;C:\Users\mujal\AppData\Roaming\Composer\vendor\bin;C:\xampp\php;C:\src\flutter_windows_3.24.3-stable\flutter\bin;C:\Users\mujal\AppData\Local\ComposerSetup\bin;C:\Users\mujal\AppData\Local\Programs\cursor\resources\app\bin
+    [SystemRoot] => C:\WINDOWS
+    [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    [WINDIR] => C:\WINDOWS
+    [SERVER_SIGNATURE] => <address>Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 Server at 172.20.10.3 Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12
+    [SERVER_NAME] => 172.20.10.3
+    [SERVER_ADDR] => 172.20.10.3
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 172.20.10.3
+    [DOCUMENT_ROOT] => C:/Users/mujal/OneDrive/Desktop/xampp/htdocs
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => C:/Users/mujal/OneDrive/Desktop/xampp/htdocs
+    [SERVER_ADMIN] => postmaster@localhost
+    [SCRIPT_FILENAME] => C:/Users/mujal/OneDrive/Desktop/xampp/htdocs/HRM/HRM/api/conges.php
+    [REMOTE_PORT] => 60407
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /HRM/HRM/api/conges.php
+    [SCRIPT_NAME] => /HRM/HRM/api/conges.php
+    [PHP_SELF] => /HRM/HRM/api/conges.php
+    [REQUEST_TIME_FLOAT] => 1752841089.4293
+    [REQUEST_TIME] => 1752841089
+)

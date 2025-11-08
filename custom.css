@@ -1,0 +1,106 @@
+/* Logo dans la sidebar (plus grand) */
+.sidebar-logo img {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  box-shadow: none;
+  border-radius: 0;
+  background: none;
+  transition: transform 0.2s;
+  max-width: 130px;
+  width: 130px;
+  height: auto;
+}
+
+.sidebar .btn#theme-toggle {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 2px 8px rgba(26,35,126,0.10);
+}
+.sidebar .btn#theme-toggle:hover {
+  background: #e3e7fa;
+}
+body.bg-dark .sidebar .btn#theme-toggle {
+  background: #23272b;
+  color: #fff;
+  border-color: #3949AB;
+}
+body.bg-dark .sidebar .btn#theme-toggle:hover {
+  background: #3949AB;
+  color: #fff;
+} 
+
+/* Header neutre sans fond ni ombre */
+.navbar {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Bouton mode moderne (header) */
+.navbar .btn#theme-toggle {
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  font-size: 1.7rem;
+  margin-bottom: 0.1rem;
+  box-shadow: 0 4px 16px rgba(26,35,126,0.10), 0 1.5px 4px rgba(26,35,126,0.08);
+  background: #fff;
+  color: #3949AB;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.25s, color 0.25s, box-shadow 0.25s, transform 0.18s;
+  position: relative;
+  overflow: hidden;
+}
+.navbar .btn#theme-toggle:hover {
+  background: #e3e7fa;
+  color: #1A237E;
+  box-shadow: 0 8px 32px rgba(26,35,126,0.18), 0 1.5px 4px rgba(26,35,126,0.10);
+  transform: scale(1.08) rotate(-4deg);
+}
+.navbar .btn#theme-toggle:active {
+  transform: scale(0.97);
+}
+
+.navbar .btn#theme-toggle .bi {
+  transition: transform 0.25s cubic-bezier(.4,2,.6,1), color 0.25s;
+}
+.navbar .btn#theme-toggle:hover .bi {
+  transform: rotate(-20deg) scale(1.12);
+  color: #1A237E;
+}
+
+body.bg-dark .navbar .btn#theme-toggle {
+  background: #23272b;
+  color: #fff;
+  border: none;
+  box-shadow: 0 4px 16px rgba(26,35,126,0.18), 0 1.5px 4px rgba(26,35,126,0.12);
+}
+body.bg-dark .navbar .btn#theme-toggle:hover {
+  background: #3949AB;
+  color: #fff;
+  box-shadow: 0 8px 32px rgba(26,35,126,0.25), 0 1.5px 4px rgba(26,35,126,0.18);
+}
+body.bg-dark .navbar .btn#theme-toggle .bi {
+  color: #fff;
+}
+
+/* Header compact */
+.navbar {
+  min-height: 56px !important;
+  height: 56px !important;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .fw-bold {
+  line-height: 1;
+  margin-top: 0.1rem;
+} 
